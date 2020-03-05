@@ -18,7 +18,7 @@ export default class Special {
       location: 'page', // index, feed, article, page
     };
 
-    this.params = { ...this.params, params };
+    this.params = { ...this.params, ...params };
 
     store.commit('setParams', this.params);
 

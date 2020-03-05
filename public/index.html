@@ -33,14 +33,14 @@
             params.css = './all.css' + ver;
           }
 
-          new Shell.Special(params);
+          new Special.Special(params);
         };
 
         var container = d.getElementById('special');
 
         if (container) {
           d.addEventListener('DOMContentLoaded', function () {
-            if (typeof Shell === 'undefined') {
+            if (typeof Special === 'undefined') {
               var s = d.createElement('script');
 
               s.src = './all.js' + ver;
