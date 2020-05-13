@@ -6,6 +6,7 @@ module.exports = {
       library: 'Special',
     },
   },
+  productionSourceMap: false,
   publicPath: process.env.NODE_ENV === 'production'
     ? '/cmtt-special-vue-template/'
     : '/',
